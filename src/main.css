@@ -34,6 +34,6 @@ nav li:hover {
 }
 
 #infoContent img {
-  max-width: 100%; /* The image won't exceed its container's width */
+  max-width: 40%; /* The image won't exceed its container's width */
   height: auto; /* Maintain aspect ratio */
 }
