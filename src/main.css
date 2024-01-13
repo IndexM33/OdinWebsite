@@ -24,3 +24,9 @@ nav li {
 nav li:hover {
   color: blue; /* Change color on hover */
 }
+
+#homeContent {
+  width: 100%; /* Full width */
+  margin: 0 auto; /* Centering the div */
+  text-align: center; /* Centering the text */
+}
