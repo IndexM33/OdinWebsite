@@ -32,3 +32,8 @@ nav li:hover {
   margin: 0 auto; /* Centering the div */
   text-align: center; /* Centering the text */
 }
+
+#infoContent img {
+  max-width: 100%; /* The image won't exceed its container's width */
+  height: auto; /* Maintain aspect ratio */
+}

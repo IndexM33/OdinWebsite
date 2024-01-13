@@ -1,5 +1,5 @@
 import clearMain from "./clearmain";
-// import "../call-us.png";
+import mainimage from "../assets/callus.png";
 
 function callInfo() {
   // when function is called it should first clear inner html of main content div.
@@ -11,9 +11,11 @@ function callInfo() {
   mainHeading.textContent = "info page!";
   const writeUp = document.createElement("h2");
   writeUp.textContent = writeUpText;
-
+  const image = document.createElement("img");
+  image.src = mainimage;
   homeContent.appendChild(mainHeading);
   homeContent.appendChild(writeUp);
+  homeContent.appendChild(image);
   mainContent.appendChild(homeContent);
 
   return mainContent;
